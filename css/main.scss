@@ -1,6 +1,8 @@
 $f-color: #B52656;
 $e-color: #454A59;
 $o-color: #34B1E2;
+$phone: 600px;
+$large: 1300px;
 
 body {
     height: 100vh;
@@ -41,8 +43,11 @@ section {
             text-align: center;
             position: relative;
 
-            @media screen and (max-width: 500px) {
+            @media screen and (max-width: $phone) {
                 transform: scale(1);
+            }
+            @media screen and (min-width: $large) {
+                transform: scale(3);
             }
 
         }
@@ -59,7 +64,7 @@ section {
         width: 900px;
         transition: all 1s;
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: $phone) {
             width: 450px;
         }
 
