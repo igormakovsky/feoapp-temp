@@ -2,6 +2,6 @@ feoapp
 ======
 Andrey Feofanov  
 Igor Makovsky  
-Andrey Tarutin  
+Alexey Tarutin  
   
 *27.10.2020*
