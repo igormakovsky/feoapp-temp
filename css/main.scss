@@ -1,0 +1,72 @@
+$f-color: #B52656;
+$e-color: #454A59;
+$o-color: #34B1E2;
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+
+    .third {
+        display: inherit;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+
+        &:nth-child(1) {
+            background-color: $f-color;
+        }
+
+        &:nth-child(2) {
+            background-color: $e-color;
+        }
+
+        &:nth-child(3) {
+            background-color: $o-color;
+        }
+
+        svg {
+            width: 100%;
+            transform: scale(2);
+            z-index: 9999;
+            pointer-events: none;
+            align-self: center;
+            margin: 0 auto;
+            text-align: center;
+            position: relative;
+
+            @media screen and (max-width: 500px) {
+                transform: scale(1);
+            }
+
+        }
+
+    }
+}
+
+.drag {
+    position: absolute;
+    top: 5rem;
+    left: 5rem;
+
+    img.feopaper {
+        width: 900px;
+        transition: all 1s;
+
+        @media screen and (max-width: 600px) {
+            width: 450px;
+        }
+
+        &:hover {
+            transform: rotate(-2deg);
+            filter: brightness(102%);
+        }
+    }
+
+}

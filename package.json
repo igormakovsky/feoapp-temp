@@ -1,0 +1,25 @@
+{
+  "name": "npm-install-all",
+  "version": "1.0.0",
+  "description": "feo",
+  "main": "index.js",
+  "dependencies": {
+    "greensock": "^1.20.2",
+    "normalize.css": "^8.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "feoapp"
+  },
+  "keywords": [
+    "feo"
+  ],
+  "author": "igormakovsky",
+  "license": "ISC"
+}

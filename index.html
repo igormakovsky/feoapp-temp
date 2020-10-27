@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEO</title>
+</head>
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+
+<body>
+
+    <section>
+        <div class="third">
+            <svg class="letter" width="59" height="56" viewBox="0 0 59 56" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M0.228394 0.800049V56.0001H16.3884V36.0801H50.3084V23.6801H16.3884V13.6001H58.0684V0.800049H0.228394Z"
+                    fill="white" />
+            </svg>
+        </div>
+        <div class="third">
+            <svg class="letter" width="60" height="56" viewBox="0 0 60 56" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M0.361206 0.800049V56.0001H59.1612V44.1601H16.5212V33.5201H48.9212V22.2401H16.5212V12.64H58.8412V0.800049H0.361206Z"
+                    fill="white" />
+            </svg>
+        </div>
+        <div class="third">
+
+            <svg class="letter" width="81" height="59" viewBox="0 0 81 59" fill="white" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M64.1397 31.5599C64.1397 42.7599 56.1397 45.8799 40.4597 45.8799C24.8597 45.8799 16.8597 42.7599 16.8597 31.5599V26.9999C16.8597 16.5199 24.8597 12.9199 40.4597 12.9199C56.1397 12.9199 64.1397 16.5199 64.1397 26.9999V31.5599ZM0.539673 29.2399C0.539673 51.1599 14.7797 58.1199 40.4597 58.1199C66.2197 58.1199 80.4597 51.1599 80.4597 29.2399C80.4597 7.63993 66.2197 0.679932 40.4597 0.679932C14.7797 0.679932 0.539673 7.63993 0.539673 29.2399Z"
+                    fill="white" />
+            </svg>
+
+        </div>
+
+        <div class="drag">
+            <img class="feopaper" srcset="img/feopaper.gif">
+        </div>
+
+    </section>
+
+</body>
+<script src="./node_modules/greensock/src/TweenMax.js"></script>
+<script src="./node_modules/greensock/src/utils/Draggable.js"></script>
+<script src="./js/ThrowPropsPlugin.min.js"></script>
+<script src="./js/drag.js"></script>
+<script>
+    draggy();
+</script>
+
+</html>
