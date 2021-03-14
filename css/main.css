@@ -19,10 +19,10 @@ section .third:nth-child(1) {
   background-color: #B52656;
 }
 section .third:nth-child(2) {
-  background-color: #454A59;
+  background-color: #34B1E2;
 }
 section .third:nth-child(3) {
-  background-color: #34B1E2;
+  background-color: #454A59;
 }
 section .third svg {
   width: 100%;
